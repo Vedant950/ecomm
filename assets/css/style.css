@@ -243,9 +243,16 @@ header .navbar {
 }
 .navbar .navbar-brand h2 em {
 	font-style: normal;
-	font-size: xx-large;
+	font-size: 1.5em;
 	color: #a38627;
 }
+
+.img-nav{
+	height: 1.7em;
+	width: 1.7em;
+	margin-top: -11px;
+}
+
 #navbarResponsive {
 	z-index: 999;
 }
@@ -996,7 +1003,7 @@ footer .inner-content p a {
 
 
 /* Responsive Style */
-@media (max-width: 400px) {
+@media (max-width: 470px) {
 	.big-logo{
 		display: none;
 	}
